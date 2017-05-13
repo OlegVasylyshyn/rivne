@@ -40,7 +40,7 @@ main {
     background-color: #DCDCDC;
 }
 
-p, h3 {
+h3 {
     margin: 0;
     padding: 0;
 }
@@ -50,7 +50,7 @@ main h3 {
 }
 
 .parallax-div {
-    height: 200px;
+    height: 210px;
 }
 
 .parallax {
@@ -64,14 +64,16 @@ main h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    
+    border-bottom-style: solid;
 }
 
-table {
-    text-align:left;
-    width: 100%;
+footer p {
+    margin: 0;
+    padding: 0;
 }
 
-table tbody th, td {
-    padding: 3px;
-    border: 1px solid black;
+section {
+    border-bottom-style: solid;
 }
