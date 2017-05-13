@@ -1,0 +1,24 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #DCDCDC; 
+}
+
+main {
+    min-height: 700px;
+}
+
+form h4 {
+    text-align: center;
+}
+
+form {
+    border-style: groove;
+    width: 45%;
+}
+
+iframe {
+    border-style: groove;
+    width: 45%;
+}
