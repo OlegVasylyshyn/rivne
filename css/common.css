@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #87CEEB;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav > ul li {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+
+nav > ul a {
+	margin-left: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+}
+
+nav li a:hover {
+	color: #FFF5EE;
+}
+
+main {
+    width: 100%;
+    min-height: 1000px;
+    font-size: 30px;
+    background-color: #DCDCDC;
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.parallax-div {
+    height: 200px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/rivne-background.jpg');
+
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    text-align:left;
+    width: 100%;
+}
+
+table tbody th, td {
+    padding: 3px;
+    border: 1px solid black;
+}
